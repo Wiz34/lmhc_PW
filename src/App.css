@@ -1,0 +1,62 @@
+.container {
+  text-align: center;
+}
+
+.rows { 
+  border: 2px solid red;
+  
+  
+
+}
+.columns {
+ border: 2px solid blueviolet;
+ width: 480px;
+  height: 480px;
+  
+}
+
+#about{
+  background-image: url("./components/images/about.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+#services {
+  background-image: url("./components/images/services.jpg");
+  background-size: cover;
+}
+
+#individual {
+  background-image:url("./components/images/individual.jpg") ;
+  background-size: cover;
+}
+
+#couple {
+  background-image:url("./components/images/couple.jpg");
+  background-size: cover;
+}
+
+#group {
+  background-image:url("./components/images/group.jpg");
+  background-size: cover;
+}
+
+#fee {
+  background-image:url("./components/images/fee.jpg");
+  background-size: cover;
+}
+
+#workshops {
+  background-image:url("./components/images/workshops.jpg");
+  background-size: cover;
+}
+
+#request {
+  background-image: url("./components/images/request_consultation.jpg");
+  background-size: cover;
+}
+
+#contact {
+  background-image:url("./components/images/contact.jpg");
+  background-size: cover;
+}
