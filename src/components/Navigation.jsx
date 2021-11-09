@@ -9,7 +9,7 @@ const Navigation = () => {
         <Navbar.Brand href="/">
           <img
             src={logo}
-            className=''
+            className='logoimg'
             alt="Logo"
           />
         </Navbar.Brand>
