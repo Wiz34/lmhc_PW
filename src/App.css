@@ -1,62 +1,39 @@
-.container {
+.basic-grid {
+
+ display: grid;
+ gap: 1rem;
+ 
+ 
+
+ grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+ grid-auto-rows: 240px;
+ 
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:1000px;
+  width: 1000px;
+  border-radius:4px;
+  color:red;
+  background: navy;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Footer {
+  padding-bottom: 10px;
+}
+
+p {
+  border-style: solid;
+  border-width: 5px;
+  border-color: purple;
   text-align: center;
-}
 
-.rows { 
-  border: 2px solid red;
-  
-  
-
-}
-.columns {
- border: 2px solid blueviolet;
- width: 480px;
-  height: 480px;
-  
-}
-
-#about{
-  background-image: url("./components/images/about.jpg");
-  background-size: cover;
-  background-position: center center;
-}
-
-#services {
-  background-image: url("./components/images/services.jpg");
-  background-size: cover;
-}
-
-#individual {
-  background-image:url("./components/images/individual.jpg") ;
-  background-size: cover;
-}
-
-#couple {
-  background-image:url("./components/images/couple.jpg");
-  background-size: cover;
-}
-
-#group {
-  background-image:url("./components/images/group.jpg");
-  background-size: cover;
-}
-
-#fee {
-  background-image:url("./components/images/fee.jpg");
-  background-size: cover;
-}
-
-#workshops {
-  background-image:url("./components/images/workshops.jpg");
-  background-size: cover;
-}
-
-#request {
-  background-image: url("./components/images/request_consultation.jpg");
-  background-size: cover;
-}
-
-#contact {
-  background-image:url("./components/images/contact.jpg");
-  background-size: cover;
 }
