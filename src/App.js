@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css';
-import Grid from './components/Grid';
+//import Grid from './components/Grid';
 import Navigation from './components/Navigation';
 import { BrowserRouter as Router,Route,Switch } from 'react-router-dom';
 import Home from './components/Home'
@@ -12,7 +12,7 @@ import Group from './components/Group';
 import Workshops from './components/Workshops';
 import AboutTherapy from './components/AboutTherapy';
 import Fee from './components/Fee';
-
+import Sentence from './components/Sentence';
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
           
       <div className="App">
           <Navigation />
+          <Sentence />
           
           <Switch>
             <Route path='/' exact component={Home} />
@@ -28,15 +29,11 @@ function App() {
             <Route path='/individual' component={Individual} />
             <Route path='/couples' component={Couples} />
             <Route path='/group' component={Group} />
-            <Route path='/fees' component={Fee} />
+            <Route path='/fee' component={Fee} />
             <Route path='/workshops' component={Workshops} />
             <Route path='/abouttherapy' component={AboutTherapy} />
-            
-        
-          
-          
           </Switch>
-          <Grid />
+         
       </div>
     </Router> 
   );

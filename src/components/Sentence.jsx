@@ -2,7 +2,7 @@
 import React from 'react'
 import '../App.css'
 
-export default Sentence = () => {
+const Sentence = () => {
     return (
         <div>
             <p>
@@ -14,3 +14,4 @@ export default Sentence = () => {
         
     
 }
+export default Sentence;
